@@ -1,0 +1,334 @@
+[cn]
+MAIN_WORD = NextMatch
+AD1 = 服务器禁止一切形式的违法行为!
+AD2 = 租赁服务器联系微信: ^4next1337^1
+WELCOME = 服务器已安装专业比赛插件。祝您游戏愉快！
+
+ENABLE = 已打开
+DISABLE = 已关闭
+CONFIRM = 确定
+CANCEL = 取消
+
+TEAM_NAME_T = 恐怖分子
+TEAM_NAME_CT = 反恐精英
+
+MENU = 菜单
+MENU_ITEM_EXIT = 退出
+MENU_ITEM_NEXT = 下一页
+MENU_ITEM_PREV = 上一页
+MENU_TITLE_NO_DATA = 这里什么都没有
+
+MENU_TITLE_SWAP_VOTE = \r交换队伍投票
+MENU_TITLE_SWAP_VOTE_SWAP = 交换队伍
+MENU_TITLE_SWAP_VOTE_KEEP = 保持队伍
+
+MENU_TITLE_MAIN = \rNextPlay 比赛
+MENU_TITLE_R3 = R3开始比赛
+MENU_TITLE_WARM = 载入练枪模式
+MENU_TITLE_MAP = 更换地图
+MENU_TITLE_RESET_ROUND = 刷新服务器
+MENU_TITLE_KICK_BAN = 踢出/封禁玩家
+MENU_TITLE_ADMIN_SERVER = 管理员/服务器设置
+MENU_TITLE_PAUSE = \y暂停/恢复游戏
+
+MENU_TITLE_R3_START = 开始常规赛
+MENU_TITLE_R3_RESTART = 重新开始
+MENU_TITLE_R3_START_OT = 开始加时赛
+MENU_TITLE_R3_START_KNIFE = 开始拼刀选边
+MENU_TITLE_R3_STOP_CUR = 停止进行中的比赛
+MENU_TITLE_R3_START_RAND = 开始常规赛(随机队伍)
+
+MENU_TITLE_KICK = 踢出玩家
+MENU_TITLE_BAN = 封禁玩家
+MENU_TITLE_UNBAN = 解除正版封禁
+MENU_TITLE_CLEAN_IP_BANNED = 清空封禁IP列表
+MENU_TITLE_KICK_M6 = 一键踢出观察者
+
+MENU_TITLE_AS_ADMIN = 管理员设置
+MENU_TITLE_AS_ADVANCED = 高级功能设置
+MENU_TITLE_AS_MATCH = 传统比赛功能设置
+MENU_TITLE_AS_SAVE = 保存服务器设置
+MENU_TITLE_AS_RESTART = \r重启服务器
+
+MENU_TITLE_ADMIN_SET_SV_PWD = 设置进服密码
+MENU_TITLE_ADMIN_CLEAN_SV_PWD = 清空进服密码
+MENU_TITLE_ADMIN_ADD_DEL_ADMIN = 添加/删除管理员
+MENU_TITLE_LOAD_KNIFE = 载入拼刀配置
+MENU_TITLE_ADMIN_SWAP = 交换队伍阵营
+MENU_TITLE_ADMIN_SET_HOSTNAME = 更换服务器名称
+MENU_TITLE_ADMIN_SET_RCON = 更换管理密码
+MENU_TITLE_ADMIN_SERVER_CONFIG = 服务器参数设置
+
+MENU_TITLE_ADMIN_ADD_ADMIN = 添加管理员
+MENU_TITLE_ADMIN_DEL_ADMIN = 删除管理员
+
+MENU_TITLE_TEAM_ECO_SHOW_WAY = 队友金钱展示方式
+MENU_TITLE_RADAR_TEAMMATE_DEAD = 雷达显示队友死亡位置
+MENU_TITLE_SHOW_SCORE_HUD = 比赛分数HUD展示
+MENU_TITLE_SHOW_SCORE_TEXT = 比赛分数TEXT展示
+MENU_TITLE_ALLOW_TEAM_CHANGE = 比赛时允许更换队伍
+MENU_TITLE_GRENADES_LIMIT = 比赛购雷限制
+
+MENU_TITLE_FORCE_CLIENT_CVAR = 强制玩家参数设置
+MENU_TITLE_FORCE_CVAR = 强制$cvarName $cvarValue
+
+MENU_TITLE_ANTI_SCROLL_DUCK = 禁止滚轮小跳
+MENU_TITLE_SWAP_STYLE = 队伍交换风格
+MENU_TITLE_ANTI_M6 = 防止观察者捣乱
+MENU_TITLE_AUTO_RECORD = 自动录制Demo
+MENU_TITLE_HALF_MERGE = 上下半场数据累计
+MENU_TITLE_ENDLESS_FREEZE = 人不齐时无限冻结时间
+MENU_TITLE_RESTORE_PLAYER_DATA = 恢复掉线玩家数据
+MENU_TITLE_AUTO_CLEAN_SV_PWD = 空服自动去除密码
+
+MENU_TITLE_CONFIRM_CLEAN_IP_BANNED = 确定要清空封禁IP列表吗
+MENU_TITLE_CONFIRM_KICK_M6 = 确定要踢出所有观察者吗
+MENU_TITLE_CONFIRM_SAVE = 确定保存服务器设置吗
+MENU_TITLE_CONFIRM_RESTART = 确定重启服务器吗
+
+MSG_PLAYER_OFFLINE = 目标玩家不在线
+MSG_FUNCTION_DISABLE = 该功能当前不可用
+MSG_PERMISSION_DENIED = 您的权限不足
+MSG_ADMIN_START_MATCH = 管理员 ^3$admin^1 开始了$match!
+MSG_ADMIN_RESTART_MATCH = 管理员 ^3$admin^1 重新开始了$match!
+MSG_ADMIN_STOP_MATCH = 管理员 ^3$admin^1 停止了比赛!
+MSG_R3R1 = 服务器开始刷新第一次
+MSG_R3R2 = 服务器开始刷新第二次
+MSG_R3R3 = 服务器开始刷新第三次
+MSG_NO_SV_PWD = 服务器当前没有密码
+MSG_SV_PWD = 服务器已经加密:^3$pwd^1, 控制台输入^3say /pwd^1查看密码
+MSG_CANT_EMPTY = 输入不能为空
+MSG_CANT_SET = 你不能设置它
+MSG_RCON_PWD = 成功设置管理密码为: ^3$pwd^1
+MSG_HOSTNAME = 成功设置服务器名称为: ^3$hostname^1
+MSG_CONFIG_SET = 成功设置 ^3$configName($configCvar)^1 为: ^3$value^1
+MSG_CLEAN_SV_PWD = 进服密码已清空，现在进入服务器不需要密码
+MSG_SWAP_VOTE_NOTE = 胜利方将有资格进行投票选边!
+MSG_SWAP_VOTE_WAITING = 请等待^3 10 ^1秒钟完成投票,系统根据投票结果判断是否换边
+MSG_SWAP_VOTE_CANT = 非投票状态或投票已经超时结束
+MSG_SWAP_VOTE_CHOSE = 玩家 ^3$name^1 选择了^4$chose^1
+MSG_SWAP_VOTE_RESULT = 投票结果为^3$result^1!
+MSG_ADMIN_LOAD_WARM = 管理员 ^3$admin^1 载入了练枪模式!
+MSG_ADMIN_CHANGE_MAP = 管理员 ^3$admin^1 将服务器地图^3[3秒]^1后更换为[^3$map^1]
+MSG_CHANGE_MAP_BUSY = 已经有其他管理员执行更换地图, 请等待地图更换
+MSG_ADMIN_RESET_ROUND = 管理员 ^3$admin^1 刷新了服务器
+MSG_ADMIN_KICK_PLAYER = 玩家 ^3$player^1 已被管理员 ^3$admin^1 踢出服务器
+MSG_KICK_MSG = 你被 $admin 踢出服务器
+MSG_ADMIN_BAN_PLAYER = 玩家 ^3$player^1 已被管理员 ^3$admin^1 封禁
+MSG_BAN_MSG = 你被 $admin 封禁
+MSG_BAN_ADMIN = 你无法封禁一个管理员
+MSG_ADMIN_KNIFE = 管理员 ^3$admin^1 载入了拼刀选边(换边后需要手动开启比赛)
+MSG_ADMIN_SWAP = 管理员 ^3$admin^1 手动交换了队伍阵营
+MSG_ADMIN_UNBAN_STEAM = 已解除封禁 SteamID: ^3$steam^1
+MSG_ADMIN_ADD_ADMIN = 管理员添加成功: ^3$player[$steam]^1
+MSG_ADMIN_ADD_ADMIN_EXISTS = 该管理员 ^3$player[$steam]^1 已存在! 已重新刷新权限系统!
+MSG_ADMIN_ADD_ADMIN_BY = 你被 ^3$admin^1 设置为管理员!
+MSG_ADMIN_DEL_ADMIN = 管理员删除成功: ^3$steam^1
+MSG_ADMIN_DEL_ADMIN_UNDELETABLE = 删除失败! 该管理员有^3不可被删除^1标签
+MSG_ADMIN_DEL_ADMIN_BY = 你的管理员权限被^3$admin^1删除, 你不再是管理员!
+MSG_ADMIN_PAUSED = 管理员 ^3$admin^1 已将服务器暂停
+MSG_ADMIN_UNPAUSED = 管理员 ^3$admin^1 已将服务器解除暂停
+MSG_ADMIN_RESTART_SERVER = 管理员 ^3$admin^1 重启服务器, 服务器将于^3[3秒]^1后重新启动
+MSG_DEMO_RECORDING = 正在录制你的Demo文件 ^3$demoName.dem^1
+MSG_TEXT_SCORE = 正在进行^3$matchType^1: 恐怖分子(T) [ ^3$scoreT : $scoreCT^1 ] (CT)反恐精英
+MSG_FREEZE_ENDLESS = 比赛人手不足 已经启用无限冻结时间
+MSG_FREEZE_RECOVER = 比赛人手充足 冻结时间恢复 比赛继续
+MSG_FREEZE_DISCONNECT = 比赛玩家掉线，下回合比赛人手不足将会启用无限冻结时间!
+MSG_FREEZE_DISCONNECT_DO = 比赛玩家掉线，立即启用无限冻结时间!
+MSG_PAUSED_MSG = 服务器已暂停,并非卡死,请管理员恢复比赛!
+MSG_SAVE_CONFIG_SUCCESS = 保存服务器设置成功
+MSG_RESTART_BUSY = 已经有其他管理员执行重启服务器, 请等待操作完成
+MSG_CLEAN_IP_BANNED = 已解除 ^3$count^1 个封禁的IP地址
+MSG_ADMIN_KICK_M6 =管理员 ^3$admin^1 执行了踢出服务器内所有观察者
+
+MSG_KICK_FCC = 服务器已将$cvarName值锁定为$cvarValue 请更改后再进入
+
+MSG_HUD_TEAM_RAND = 请注意! 当前比赛随机分配队伍
+MSG_HUD_TEAM_ECO = 当前队友金钱：^n
+MSG_HUD_ANTI_SCROLL_DUCK = 服务器已禁止滚轮小跳！^n谢谢合作
+MSG_HUD_CONFIG_SET = 请输入一个$configName的值 按回车键确定 按ESC键取消
+MSG_HUD_TL_ANTI_M6 = 比赛已经开始^n请等待少人时加入比赛
+MSG_HUD_TL_CCT_PLAYER_FULL = 对面人手充足^n系统禁止变更队伍
+MSG_HUD_TL_CCT_DISABLE = 比赛已经开始^n系统禁止变更队伍
+MSG_HUD_R3_BEFORE = 服务器正在准备刷新三次, 比赛将随后开始^nReady!
+MSG_HUD_R3_AFTER = 服务器刷新完毕, 比赛开始, 祝您好运!^nGood Luck!
+MSG_HUD_SWAP_BEFORE = $matchType结束^n恐怖分子(T) [ $scoreT : $scoreCT ] (CT)反恐精英^n正在保存截图,自动换边,刷新后进入下半场
+MSG_HUD_MATCH_END_WIN = Good Game ! 比赛结束^n$winTeam胜! [ $scoreT : $scoreCT ]^n正在保存截图,希望这场比赛对你有所帮助
+MSG_HUD_MATCH_END_DRAW = Good Game ! 比赛结束^n双方战平! [ $scoreT : $scoreCT ]^n正在保存截图,希望这场比赛对你有所帮助
+MSG_HUD_SCORE = 恐怖分子(T) [ $scoreT : $scoreCT ] (CT)反恐精英
+MSG_HUD_HALF_FINAL_ROUND = 半场最终局
+MSG_HUD_MATCH_FINAL_ROUND = 最终局
+MSG_HUD_MATCH_POINT = 赛点
+
+M_TYPE_KNIFE = 拼刀选边
+M_TYPE_FH = 上半场常规赛
+M_TYPE_SH = 下半场常规赛
+M_TYPE_FH_OT = 上半场加时赛
+M_TYPE_SH_OT = 下半场加时赛
+
+[en]
+MAIN_WORD = NextMatch
+AD1 = Powered By H0meV & Just for fun!
+AD2 = For server rental, please contact discord: ^4H0meV^1
+WELCOME = Enjoy the game & Do not cheat!
+
+ENABLE = Enable
+DISABLE = Disable
+CONFIRM = YES
+CANCEL = Cancel
+
+TEAM_NAME_T = TRs
+TEAM_NAME_CT = CTs
+
+MENU = " Menu"
+MENU_ITEM_EXIT = Exit
+MENU_ITEM_NEXT = Next
+MENU_ITEM_PREV = Pre
+MENU_TITLE_NO_DATA = Nothing here
+
+MENU_TITLE_SWAP_VOTE = \rTeam Swap Vote
+MENU_TITLE_SWAP_VOTE_SWAP = Swap
+MENU_TITLE_SWAP_VOTE_KEEP = Keep
+
+MENU_TITLE_MAIN = \rNextPlay Match 
+MENU_TITLE_R3 = R3 Start 
+MENU_TITLE_WARM = Load Warmup 
+MENU_TITLE_MAP = Change Map 
+MENU_TITLE_RESET_ROUND = Restart Round 
+MENU_TITLE_KICK_BAN = Kick/Ban Player
+MENU_TITLE_ADMIN_SERVER = Admin/Server Setting
+MENU_TITLE_PAUSE = \yPause/Unpause Game
+
+MENU_TITLE_R3_START = Start Match
+MENU_TITLE_R3_RESTART = Restart
+MENU_TITLE_R3_START_OT = Start Overtime
+MENU_TITLE_R3_START_KNIFE = Start Knife
+MENU_TITLE_R3_STOP_CUR = Stop Current Match
+MENU_TITLE_R3_START_RAND = Start Match(Random Team)
+
+MENU_TITLE_KICK = Kick Player
+MENU_TITLE_BAN = Ban Player
+MENU_TITLE_UNBAN = Unban SteamID
+MENU_TITLE_CLEAN_IP_BANNED = Clear Banned Ip List
+MENU_TITLE_KICK_M6 = Kick All Spectator
+
+MENU_TITLE_AS_ADMIN = Admin Setting
+MENU_TITLE_AS_ADVANCED = Advanced Setting
+MENU_TITLE_AS_MATCH = Traditional Setting
+MENU_TITLE_AS_SAVE = Save Setting
+MENU_TITLE_AS_RESTART = \rRestart Server
+
+MENU_TITLE_ADMIN_SET_SV_PWD = Set sv_password
+MENU_TITLE_ADMIN_CLEAN_SV_PWD = Clear sv_password
+MENU_TITLE_ADMIN_ADD_DEL_ADMIN = Add/Del Admins
+MENU_TITLE_LOAD_KNIFE = Load Knife
+MENU_TITLE_ADMIN_SWAP = Swap Team
+MENU_TITLE_ADMIN_SET_HOSTNAME = Set hostname
+MENU_TITLE_ADMIN_SET_RCON = Set rcon_password
+MENU_TITLE_ADMIN_SERVER_CONFIG = Set Rules
+
+MENU_TITLE_ADMIN_ADD_ADMIN = Add Admins
+MENU_TITLE_ADMIN_DEL_ADMIN = Del Admins
+
+MENU_TITLE_TEAM_ECO_SHOW_WAY = Team ECO Show Way
+MENU_TITLE_RADAR_TEAMMATE_DEAD = Show death teammate on Radar
+MENU_TITLE_SHOW_SCORE_HUD = Show score in HUD
+MENU_TITLE_SHOW_SCORE_TEXT = Show score in TEXT
+MENU_TITLE_ALLOW_TEAM_CHANGE = Allowed change team on match
+MENU_TITLE_GRENADES_LIMIT = Grenades limit on match
+
+MENU_TITLE_FORCE_CLIENT_CVAR = Forced client cvar
+MENU_TITLE_FORCE_CVAR = Forced $cvarName $cvarValue
+
+MENU_TITLE_ANTI_SCROLL_DUCK = Anti scroll duck
+MENU_TITLE_SWAP_STYLE = Team Swap Style
+MENU_TITLE_ANTI_M6 = Block Spectators
+MENU_TITLE_AUTO_RECORD = Auto record Demo(Client side)
+MENU_TITLE_HALF_MERGE = Half round data merge
+MENU_TITLE_ENDLESS_FREEZE = Endless freezetime shortage of staff
+MENU_TITLE_AUTO_CLEAN_SV_PWD = Auto clear sv_password no player
+
+MENU_TITLE_CONFIRM_CLEAN_IP_BANNED = Are you sure clear banned ip list
+MENU_TITLE_CONFIRM_KICK_M6 = Are you sure kick all spectators
+MENU_TITLE_CONFIRM_SAVE = Are you sure save server config
+MENU_TITLE_CONFIRM_RESTART = Are you sure restart server
+
+MSG_PLAYER_OFFLINE = Tar get player not online
+MSG_FUNCTION_DISABLE = The function now disable
+MSG_PERMISSION_DENIED = Permission denied
+MSG_ADMIN_START_MATCH = Admin ^3$admin^1 started $match!
+MSG_ADMIN_RESTART_MATCH = Admin ^3$admin^1 restarted $match!
+MSG_ADMIN_STOP_MATCH = Admin ^3$admin^1 Stop current match!
+MSG_R3R1 = Server 1st restart round
+MSG_R3R2 = Server 2nd restart round
+MSG_R3R3 = Server 3rd restart round
+MSG_NO_SV_PWD = The server currently has no password
+MSG_SV_PWD = The server password: ^3$pwd^1, enter ^3say /pwd^1 in the console to view the password
+MSG_CANT_EMPTY = You can not input empty
+MSG_CANT_SET = You can not set it
+MSG_RCON_PWD = Set the rcon_password to: ^3$pwd^1 successfully
+MSG_HOSTNAME = Set the hostname to: ^3$hostname^1 successfully
+MSG_CONFIG_SET = Successfully set the ^3$configName($configCvar)^1 to: ^3$value^1
+MSG_CLEAN_SV_PWD = sv_password has been cleared. No password is required to enter the server now
+MSG_SWAP_VOTE_NOTE = The winner will be eligible to vote!
+MSG_SWAP_VOTE_WAITING = Please wait ^3 10 ^1 secs to complete the voting for swap.
+MSG_SWAP_VOTE_CANT = Not voting or voting has timed out
+MSG_SWAP_VOTE_CHOSE = Player ^3$name^1 chose ^4$chose^1
+MSG_SWAP_VOTE_RESULT = The voting result is ^3$result^1!
+MSG_ADMIN_LOAD_WARM = Admin ^3$admin^1 load warmup!
+MSG_ADMIN_CHANGE_MAP = Admin ^3$admin^1 changed server map to [^3$map^1]
+MSG_CHANGE_MAP_BUSY = Another admin has already changed the map. Please wait for the map to be changed.
+MSG_ADMIN_RESET_ROUND = Admin ^3$admin^1 restart round
+MSG_ADMIN_KICK_PLAYER = Player ^3$player^1 kicked by ^3$admin^1
+MSG_KICK_MSG = You are kicked by $admin
+MSG_ADMIN_BAN_PLAYER = Player ^3$player^1 banned by ^3$admin^1
+MSG_BAN_MSG = You are banned by $admin
+MSG_BAN_ADMIN = You cannot ban an admin
+MSG_ADMIN_KNIFE = Admin ^3$admin^1 Load knife(Need manually start the match)
+MSG_ADMIN_SWAP = Admin ^3$admin^1 swap team manually
+MSG_ADMIN_UNBAN_STEAM = Unbanned SteamID: ^3$steam^1
+MSG_ADMIN_ADD_ADMIN = Add admin successfully: ^3$player[$steam]^1
+MSG_ADMIN_ADD_ADMIN_EXISTS = The admin ^3$player[$steam]^1 existed! The permissions system has been refreshed!
+MSG_ADMIN_ADD_ADMIN_BY = You are set as an admin by ^3$admin^1!
+MSG_ADMIN_DEL_ADMIN = Delete admin successfully: ^3$steam^1
+MSG_ADMIN_DEL_ADMIN_UNDELETABLE = Delete admin failed! The admin has ^3undeletable^1 tag
+MSG_ADMIN_DEL_ADMIN_BY = Your admin privileges have been deleted by ^3$admin^1, you are no longer an admin!
+MSG_ADMIN_PAUSED = Admin ^3$admin^1 Paused the server
+MSG_ADMIN_UNPAUSED = Admin ^3$admin^1 Unpaused the server
+MSG_ADMIN_RESTART_SERVER = Admin ^3$admin^1 restart server, The server will restart in 3 seconds
+MSG_DEMO_RECORDING = Recording your demo file ^3$demoName.dem^1
+MSG_TEXT_SCORE = ^3$matchType^1 in progress: TRs [ ^3$scoreT : $scoreCT^1 ] CTs
+MSG_FREEZE_ENDLESS = The match is short-handed. Endless freeze time has been enabled.
+MSG_FREEZE_RECOVER = The match is full of players. The endless freeze time disable and the match continues.
+MSG_FREEZE_DISCONNECT = A player has disconnect, the next round of the game will be short of players and the endless freeze time will be enabled!
+MSG_FREEZE_DISCONNECT_DO = A player has disconnect, the endless freeze time enabled immediately!
+MSG_PAUSED_MSG = The server has been paused, not lag, please wait the admin to resume the game!
+MSG_SAVE_CONFIG_SUCCESS = Server configs saved successfully
+MSG_RESTART_BUSY = Another admin has already restarted the server. Please wait for the operation to complete.
+MSG_CLEAN_IP_BANNED = ^3$count^1 banned IP has been unbanned
+MSG_ADMIN_KICK_M6 = Admin ^3$admin^1 kicked all spectators
+
+MSG_KICK_FCC = Server forced $cvarName to $cvarValue
+
+MSG_HUD_TEAM_RAND = The current match is randomly assigned to teams
+MSG_HUD_TEAM_ECO = Teammate ECO^n
+MSG_HUD_ANTI_SCROLL_DUCK = Server prohibit double duck
+MSG_HUD_CONFIG_SET = Please type a value for $configName then press ENTER to confirm press ESC to cancel
+MSG_HUD_TL_ANTI_M6 = The match has started^nPlease wait until there are fewer people to join the game
+MSG_HUD_TL_CCT_PLAYER_FULL = The opponent has enough manpower^nThe system prohibits changing teams
+MSG_HUD_TL_CCT_DISABLE = The game has already started^nThe system prohibits changing teams
+MSG_HUD_R3_BEFORE = The server will restart round three times, the game will start shortly^nReady!
+MSG_HUD_R3_AFTER = Match has started!^nGood Luck!
+MSG_HUD_SWAP_BEFORE = $matchType end^nTRs [ $scoreT : $scoreCT ] CTs^nSaving screenshots, auto team swap to enter the second half
+MSG_HUD_MATCH_END_WIN = Good Game! Match End^n$winTeam won! [ $scoreT : $scoreCT ]^nSaving screenshots, hope this match helps you
+MSG_HUD_MATCH_END_DRAW = Good Game! Match End^nDraw! [ $scoreT : $scoreCT ]^nSaving screenshots, hope this match helps you
+MSG_HUD_SCORE = TRs [ $scoreT : $scoreCT ] CTs
+MSG_HUD_HALF_FINAL_ROUND = Final round of first half
+MSG_HUD_MATCH_FINAL_ROUND = Final round
+MSG_HUD_MATCH_POINT = Match Point
+
+M_TYPE_KNIFE = Knife round
+M_TYPE_FH = First half
+M_TYPE_SH = Second half
+M_TYPE_FH_OT = First half OT
+M_TYPE_SH_OT = Second half OT
